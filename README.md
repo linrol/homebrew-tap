@@ -17,8 +17,26 @@ brew tap linrol/tap
 brew install --cask swapr-trans
 ```
 
+---
+
+### Katib
+Real-time bidirectional meeting speech transcription and live captions for macOS (SenseVoice on-device neural engine, ScreenCaptureKit).
+
+```bash
+brew install linrol/tap/katib
+```
+
+Or tap first:
+```bash
+brew tap linrol/tap
+brew install --cask katib
+```
+
+---
+
 ## Update
 
 ```bash
 brew upgrade swapr-trans
+brew upgrade katib
 ```
